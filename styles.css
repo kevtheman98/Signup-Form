@@ -42,6 +42,7 @@ form, fieldset {
     margin-bottom: 50px;
     padding-top: 20px;
     border-style: none;
+    padding-left: 20px;
 }
 
 
@@ -60,7 +61,7 @@ button {
     margin-top: 5vh;
 }
 
-input {
+input:focus {
     margin: 15px;
 }
 
@@ -73,13 +74,30 @@ legend {
 .content {
     width: 100%;
     display: flex;
-    justify-content: space-around;
 }
 
 .left,
 .right {
     display: flex;
     flex-direction: column;
+
+}
+.right {
+    margin-left: 200px;
+}
+
+
+
+
+input:valid {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+input:invalid {
+    border-style: solid;
+    border-color: red;
 }
 
 

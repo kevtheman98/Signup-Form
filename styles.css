@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 40%;
+    height: 100vh;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+form {
+    width: 75%;
+    height: 100%;
+}
+s
